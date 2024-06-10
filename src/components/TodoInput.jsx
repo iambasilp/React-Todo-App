@@ -3,7 +3,6 @@ const TodoInput = () => {
    <header>
     <input type="text" placeholder="Enter your Tods" />
     <input type="submit" value="Add" />
-    
    </header>
   )
 }
