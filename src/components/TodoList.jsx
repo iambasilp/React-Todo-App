@@ -6,7 +6,7 @@ const TodoList = () => {
         "Todo three"
     ]
   return (
-    <ul>
+    <ol  className="list">
       {
         Todos.map((item,itemIndex)=>{
             return (
@@ -14,7 +14,7 @@ const TodoList = () => {
             )
         })
       }
-    </ul>
+    </ol>
   )
 }
 

@@ -18,7 +18,21 @@ body {
   height: 500px;
   border-radius: 1rem;
   position: relative;
-  position: relative;
+  
+}
+.Todo.container .list{
+  position: absolute;
+  width: 400px;
+  left: 50px;
+  top: 100px;
+}
+.Todo.container .list li{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: .8rem 1rem;
+  border-radius: .5rem;
 }
 
 .Todo.container header {
